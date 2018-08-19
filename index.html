@@ -1,0 +1,52 @@
+<head>
+
+    <meta charset="utf-8">
+    <title>上链</title>
+    <link rel="stylesheet" type="text/css" href="style.css" charset="utf-8">
+
+
+</head>
+
+
+
+<body>
+
+<header>
+</header>    
+<main>
+    <form action="http://localhost:8081" method="GET" style="grid-row: 2/10;grid-column:5/9">
+
+        <div  class="chan">
+          <button class="button-rect" type="submit">查看区块链</button>
+        </div>
+    
+    </form>
+    
+
+    <button class="button-rect" id="a1" style="grid-row: 11/12;grid-column:6/8">新建区块</button>
+
+
+    <form action="http://localhost:8081" method="POST" enctype="application/json" style="grid-row: 14/25;grid-column:5/9">
+
+        <div>
+            <label for="bpm">BPM:</label> 
+            <input type="text" id="bpm" name="BPM">
+        </div>
+
+        <!-- <div>
+
+          <label for="msg">Message:</label> <textarea id="msg" name="user_message"></textarea>
+
+        </div> -->
+
+        <div class="chan">
+          <button class="button-rect" type="submit">增加区块</button>
+        </div>
+    
+    </form>
+
+</main>
+</body>
+
+
+<script src="js.js"></script>
